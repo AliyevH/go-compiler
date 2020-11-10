@@ -13,8 +13,7 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Printf("Hello %s! This is Monkey programming langugage !\n", user.Username)
-	fmt.Println("Feel free to type in commands")
+	fmt.Printf("Hello %s!\n", user.Username)
 	repl.Start(os.Stdin, os.Stdout)
 
 }
